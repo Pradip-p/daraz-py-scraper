@@ -17,12 +17,15 @@ git clone git@github.com:Pradip-p/daraz-py-scraper.git
 ```
 2. Install the required dependencies.
 ```
-pip install -r crawler/requirements.txt
+cd crawler/
+```
+```
+pip install .
 ```
 #### Usage
 1. Run the daraz_com.py script to scrape data from daraz and save it to the database.
 ```
-python crawler/darazy_com.py
+python crawler/daraz_com.py
 ```
 
 2. After running scripts, the scraped data will be stored in the SQLite database.
