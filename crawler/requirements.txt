@@ -1,0 +1,15 @@
+Scrapy
+ipdb
+protobuf
+ruamel.yaml
+s3transfer
+pillow
+pandas
+googletrans
+pdfminer.six
+PyYAML
+openpyxl
+js2xml
+load_dotenv
+django
+gunicorn
