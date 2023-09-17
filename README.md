@@ -1,4 +1,4 @@
-## daraz sacrapr
+## daraz scraper
 
 This project aims to scrape data from  daraz Nepal, and save the scraped data into a database and show scraped data in simple Django web app.
 
@@ -41,6 +41,19 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 5. Access the web app by visiting http://localhost:8000/ in your web browser.
+
+### Future Additional Features
+
+1. **Download Options:** Implement a download button for each crawler run, allowing users to export scraped data in various formats such as JSON, CSV, and Excel. This feature will enhance data accessibility and usability.
+
+2. **Automated Email Delivery:** Integrate an automatic email delivery system that sends scraped data to clients' specified email addresses. This will provide users with a convenient way to receive updates and reports without manual intervention.
+
+3. **Live Logging:** Develop a live log feature that tracks the progress and status of each scraper in real-time. Users will benefit from enhanced transparency and the ability to monitor scraping activities as they happen.
+
+4. **Notification System:** Add a notification system to alert users about the completion of scraping jobs, errors, or other important events. Notifications can be sent via email, Slack, or other preferred communication channels, ensuring users stay informed and can take prompt actions as needed.
+
+
+
 
 #### Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please submit a pull request.
