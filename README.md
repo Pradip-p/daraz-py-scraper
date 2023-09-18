@@ -23,12 +23,21 @@ cd crawler/
 pip install .
 ```
 #### Usage
-1. Run the daraz_com.py script to scrape data from daraz and save it to the database.
+
+To run project on locally :
+
+1. create a .env file in project directory
+set 
+```
+MYPROJECT_ENV=dev
+```
+
+2. Run the daraz_com.py script to scrape data from daraz and save it to the database.
 ```
 python crawler/daraz_com.py
 ```
 
-2. After running scripts, the scraped data will be stored in the SQLite database.
+3. After running scripts, the scraped data will be stored in the SQLite database.
 
 4. Run the Django project.
 ```

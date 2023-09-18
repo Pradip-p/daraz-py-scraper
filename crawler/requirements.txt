@@ -8,7 +8,6 @@ pandas
 googletrans
 pdfminer.six
 PyYAML
-openpyxl
 js2xml
 load_dotenv
 django
